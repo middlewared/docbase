@@ -1,0 +1,12 @@
+version: '2'
+
+services:
+    db:
+      image: mongo
+      volumes:
+        - ./DB:/data/db
+    app:
+      build: .
+      ports:
+        - "8080:8080"
+        - "9990:9990"
