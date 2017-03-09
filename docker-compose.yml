@@ -4,7 +4,7 @@ services:
     db:
       image: mongo
       volumes:
-        - ./DB:/data/db
+        - ./data:/data/db
     app:
       build: .
       ports:
