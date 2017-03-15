@@ -1,6 +1,5 @@
 package com.baku;
 
-import com.mongodb.MongoClient;
 import javax.ejb.Stateless;
 import javax.inject.Inject;
 import javax.ws.rs.GET;
